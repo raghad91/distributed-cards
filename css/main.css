@@ -18,6 +18,7 @@ ol {
   grid-template-columns: 1fr 1fr;
   padding: 1rem;
   list-style-type: none;
+  padding-top: .5rem;
   gap: 1rem;
   margin: 0;
 }
@@ -25,7 +26,11 @@ ol {
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-  margin: .5rem;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -52,4 +57,9 @@ a {
   background-color: #623b0c;
   color: #fff;
   text-decoration: none;
+  border-radius: 8px;
+}
+
+p {
+  margin-top: 1.5rem;
 }
