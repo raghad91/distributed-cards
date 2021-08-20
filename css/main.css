@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: Georgua, serif;
+  font-family: Georgia, serif;
   background-color: #f5f2f0;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -18,11 +19,17 @@ ol {
   padding: 1rem;
   list-style-type: none;
   gap: 1rem;
+  margin: 0;
 }
 
 h1, h2 {
-  font-family: "Denk One";
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
+  margin: .5rem;
+}
+
+h1 {
+  margin: 1rem;
 }
 
 img {
@@ -35,6 +42,9 @@ li {
   background-color: #ede3db;
   border-radius: 8px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
